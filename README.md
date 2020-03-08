@@ -1,2 +1,2 @@
-# first-css-code
+# begin-css
 start learning css
