@@ -1,35 +1,66 @@
-.heading {
-  color: #216353;
+/*****************************TAG SELECTORS*****************************/
+body {
+  background-color: #ffe2ff;
+}
+
+h1 {
+  color: #cc0e74;
   font-size: 60px;
+  margin: 4;
 }
 
 h2 {
-  color: #216353;
-  font-size: 40px;
+  color: #004445;
+  font-size: 35px;
 }
 
-p {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/*****************************CLASS SELECTORS*****************************/
+.userrecommendation {
+  color: red;
+}
+
+.foodsparagraph {
   color: #434e52;
-  font-size: 25px;
+  font-size: 18px;
 }
 
-.list {
-  color: #434e52;
-  font-size: 25px;
+.foodsimage {
+  border-radius: 10%;
 }
 
-body {
-  background-color: #d6e4f0;
+/*****************************ID SELECTORS*****************************/
+#footer-line {
+  color: black;
 }
 
-
-.lookbatter {
+#footer-line {
     border-width: 10px;
-    border-color: black;
+    border-color: red;
     border-style: none;
     border-top-style: dotted;
     width: 20%;
   }
-img {
-  border-radius: 100%;
-}
