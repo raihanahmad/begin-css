@@ -55,12 +55,17 @@ li a:hover {
 /*****************************ID SELECTORS*****************************/
 #footer-line {
   color: black;
+  font-size:
 }
 
-#footer-line {
+#dotted-design {
     border-width: 10px;
-    border-color: red;
+    border-color: grey;
     border-style: none;
     border-top-style: dotted;
     width: 20%;
   }
+
+#fotter-padd {
+  padding: 12px;
+}
